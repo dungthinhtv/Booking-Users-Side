@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './hotel.css';
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
@@ -39,7 +41,8 @@ const Hotel = () => {
     return diffDays;
   }
 
-  const days = dayDifference(dates[0].endDate, dates[0].startDate);
+  // const days = dayDifference(dates[0].endDate, dates[0].startDate);
+  const days = 2;
 
   const handleOpen = (i) => {
     setSlideNumber(i);
