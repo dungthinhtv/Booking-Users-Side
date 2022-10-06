@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
   }
 }
